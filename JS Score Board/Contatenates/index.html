@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="card">
+        <div id="home">
+            <h1 id="homeTitle">HOME</h1>
+            <h1 id="homeScore">00</h1>
+            <div class="btn-group">
+                <button class="btn1" onclick="homeInc1()">+1</button>
+                <button class="btn2" onclick="homeInc2()">+2</button>
+                <button class="btn3" onclick="homeInc3()">+3</button>
+            </div>
+        </div>
+
+        <div id="guest">
+            <h1 id="guest">GUEST</h1>
+            <h1 id="guestScore">00</h1>
+            <div class="btn-group">
+                <button class="btn1" onclick="guestInc1()">+1</button>
+                <button class="btn2" onclick="guestInc2()">+2</button>
+                <button class="btn3" onclick="guestInc3()">+3</button>
+            </div>
+            <div>
+                <button id="reset" onclick="reset()">RESET</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
