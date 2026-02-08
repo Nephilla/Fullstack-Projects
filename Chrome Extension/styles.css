@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    min-width: 400px;
+}
+
+#input-el {
+    display: block;
+    font-size: 15px;
+    padding: 10px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#input-el:focus {
+    background-color: rgb(231, 238, 240);
+    outline: none;
+}
+
+#input-btn {
+    background-color: rgb(68, 158, 68);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    min-width: 140px;
+}
+
+#delete-btn {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(68, 158, 68);
+    color: rgb(68, 158, 68);
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 10px 0px;
+    padding: 9px 0px;
+    min-width: 140px;
+}
+
+ul {
+    padding: 0px 0px 0px 0px;
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: underline;
+    color: rgb(68, 158, 68);
+}
